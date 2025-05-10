@@ -18,5 +18,6 @@ exec python3 -m wyoming_microsoft_tts \
     --service-region "$(bashio::config 'service_region')" \
     --custom-voice "$(bashio::config 'custom_voice')" \
     --endpoint-id "$(bashio::config 'endpoint_id')" \
+    --audio-format "$(bashio::config 'audio_format')" \
     --download-dir /data \
     ${flags[@]}
