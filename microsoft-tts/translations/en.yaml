@@ -1,5 +1,13 @@
 ---
 configuration:
+  endpoint_id:
+    name: Endpoint Id
+    description: >-
+      Endpoint id string for custom voice
+  custom_voice:
+    name: Custom Voice
+    description: >-
+      custom voice name.
   subscription_key:
     name: Subscription key
     description: >-
