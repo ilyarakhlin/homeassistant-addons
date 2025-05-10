@@ -12,6 +12,18 @@ if bashio::config.true 'debug_logging'; then
     flags+=('--debug')
 fi
 
+if bashio::config.has_value 'endpoint_id'; then
+    ENDPOINT_ID="$(bashio::config 'endpoint_id')"
+    flags+=('--endpoint_id')
+    flags+=("${ENDPOINT_ID}")
+fi
+
+if bashio::config.has_value 'custom-voice'; then
+    CUSTOM_VOICE="$(bashio::config 'custom-voice')"
+    flags+=('--custom-voice')
+    flags+=("${CUSTOM_VOICE}")
+fi
+
 exec python3 -m wyoming_microsoft_tts \
     --uri "tcp://0.0.0.0:10200" \
     --subscription-key "$(bashio::config 'subscription_key')" \

@@ -16,7 +16,7 @@ This repository contains the following add-ons
 
 _Wyoming implementation of Microsoft Speech Service Text-to-Speech._
 
-Main repository: [hugobloem/wyoming-microsoft-tts](https://github.com/hugobloem/wyoming-microsoft-tts)
+Main repository: [ilyarakhlin/wyoming-microsoft-tts](https://github.com/ilyarakhlin/wyoming-microsoft-tts)
 
 ### [Microsoft Speech-to-Text](./microsoft-stt)
 
@@ -28,7 +28,7 @@ Main repository: [hugobloem/wyoming-microsoft-tts](https://github.com/hugobloem/
 
 _Wyoming implementation of Microsoft Speech Service Speech-to-Text._
 
-Main repository: [hugobloem/wyoming-microsoft-stt](https://github.com/hugobloem/wyoming-microsoft-stt)
+Main repository: [ilyarakhlin/wyoming-microsoft-stt](https://github.com/ilyarakhlin/wyoming-microsoft-stt)
 <!--
 
 Notes to developers after forking or using the github template feature:
