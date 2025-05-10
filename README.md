@@ -1,6 +1,6 @@
 # Home Assistant add-on repository
 
-This repository provides the Home Assistant Add-Ons for Microsoft TTS and STT. 
+This repository provides the Home Assistant Add-Ons for Microsoft TTS and STT update. 
 
 ## Add-ons
 
